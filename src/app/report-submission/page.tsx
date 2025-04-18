@@ -39,11 +39,11 @@ export default function ReportSubmissionPage() {
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-    setErrors({ ...errors, [name]: !validateField(name, value) });
-  };
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   const { name, value } = e.target;
+  //   setFormData({ ...formData, [name]: value });
+  //   setErrors({ ...errors, [name]: !validateField(name, value) });
+  // };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
