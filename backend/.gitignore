@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+logs
+*.log
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory
+coverage/
+
+# Build directory (if you have one)
+dist/
+build/
